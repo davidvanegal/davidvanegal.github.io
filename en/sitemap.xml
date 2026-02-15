@@ -2,6 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://davidvanegal.github.io/</loc>
+    <lastmod>2026-08-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ES"
+                href="https://davidvanegal.github.io/es/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="EN"
+                href="https://davidvanegal.github.io/"
+                />
+  </url><url>
+    <loc>https://davidvanegal.github.io/blog/</loc>
+    <lastmod>2026-08-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ES"
+                href="https://davidvanegal.github.io/es/blog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="EN"
+                href="https://davidvanegal.github.io/blog/"
+                />
+  </url><url>
     <loc>https://davidvanegal.github.io/tags/colombia/</loc>
     <lastmod>2022-02-11T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -15,83 +41,20 @@
                 href="https://davidvanegal.github.io/tags/colombia/"
                 />
   </url><url>
-    <loc>https://davidvanegal.github.io/</loc>
+    <loc>https://davidvanegal.github.io/tags/dung-beetles/</loc>
     <lastmod>2022-02-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ES"
-                href="https://davidvanegal.github.io/es/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="EN"
-                href="https://davidvanegal.github.io/"
-                />
   </url><url>
-    <loc>https://davidvanegal.github.io/tags/ecolog%C3%ADa/</loc>
+    <loc>https://davidvanegal.github.io/tags/ecology/</loc>
     <lastmod>2022-02-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ES"
-                href="https://davidvanegal.github.io/es/tags/ecolog%C3%ADa/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="EN"
-                href="https://davidvanegal.github.io/tags/ecolog%C3%ADa/"
-                />
   </url><url>
-    <loc>https://davidvanegal.github.io/tags/escarabajos-copr%C3%B3fagos/</loc>
+    <loc>https://davidvanegal.github.io/blog/ariasalvarezetal2019/</loc>
     <lastmod>2022-02-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ES"
-                href="https://davidvanegal.github.io/es/tags/escarabajos-copr%C3%B3fagos/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="EN"
-                href="https://davidvanegal.github.io/tags/escarabajos-copr%C3%B3fagos/"
-                />
   </url><url>
-    <loc>https://davidvanegal.github.io/tags/publicaci%C3%B3n/</loc>
+    <loc>https://davidvanegal.github.io/tags/publication/</loc>
     <lastmod>2022-02-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ES"
-                href="https://davidvanegal.github.io/es/tags/publicaci%C3%B3n/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="EN"
-                href="https://davidvanegal.github.io/tags/publicaci%C3%B3n/"
-                />
   </url><url>
-    <loc>https://davidvanegal.github.io/blog/publicaci%C3%B3n-2022-1/</loc>
+    <loc>https://davidvanegal.github.io/blog/production/</loc>
     <lastmod>2022-02-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ES"
-                href="https://davidvanegal.github.io/es/blog/publicaci%C3%B3n-2022-1/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="EN"
-                href="https://davidvanegal.github.io/blog/publicaci%C3%B3n-2022-1/"
-                />
-  </url><url>
-    <loc>https://davidvanegal.github.io/blog/</loc>
-    <lastmod>2022-02-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ES"
-                href="https://davidvanegal.github.io/es/blog/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="EN"
-                href="https://davidvanegal.github.io/blog/"
-                />
   </url><url>
     <loc>https://davidvanegal.github.io/tags/</loc>
     <lastmod>2022-02-11T00:00:00+00:00</lastmod>
@@ -117,6 +80,32 @@
                 rel="alternate"
                 hreflang="EN"
                 href="https://davidvanegal.github.io/tags/distribuci%C3%B3n/"
+                />
+  </url><url>
+    <loc>https://davidvanegal.github.io/tags/ecolog%C3%ADa/</loc>
+    <lastmod>2021-04-28T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ES"
+                href="https://davidvanegal.github.io/es/tags/ecolog%C3%ADa/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="EN"
+                href="https://davidvanegal.github.io/tags/ecolog%C3%ADa/"
+                />
+  </url><url>
+    <loc>https://davidvanegal.github.io/tags/escarabajos-copr%C3%B3fagos/</loc>
+    <lastmod>2021-04-28T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ES"
+                href="https://davidvanegal.github.io/es/tags/escarabajos-copr%C3%B3fagos/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="EN"
+                href="https://davidvanegal.github.io/tags/escarabajos-copr%C3%B3fagos/"
                 />
   </url><url>
     <loc>https://davidvanegal.github.io/tags/ponencia/</loc>
