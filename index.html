@@ -136,7 +136,7 @@
       <span></span>
     </label>
   </div>
-  <div class="fullscreen-nav-container" style="background-image: url('https://i.ibb.co/pwByKPc/1462710-1438528976361244-1879148447-o.jpg');">
+  <div class="fullscreen-nav-container" style="background-image: url('https://davidvanegal.github.io/');">
     <div class="container-fluid">
       <div class="full-nav-container row">
         <div class="full-nav-holder">
@@ -482,17 +482,55 @@
 
 
 
-<style></style>
-<section class="contact "  style="background-image: url('https://mattbuckinghamphotography.com/wp-content/uploads/2017/10/img_6560.jpg');" id="contact">
-  <div class="container">
+<style>
+#contact {
+  position: relative;
+  overflow: hidden;
+  min-height: 100vh;  
+}
+
+#contact .bg-slide {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;  
+  opacity: 0;
+  transition: opacity 1.5s ease-in-out;
+}
+
+#contact .bg-slide.active {
+  opacity: 1;
+}
+
+#contact .bg-slide::after {
+  content: '';
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0,0,0,0.4);  
+}
+</style>
+
+<section class="contact "  id="contact">
+  
+  
+  <div class="bg-slide active" style="background-image: url('https://colombiatours.travel/wp-content/uploads/2024/02/7b3378f2-80c4-4610-b627-33c29412019e.jpg');"></div>
+  <div class="bg-slide" style="background-image: url('https://i.ibb.co/NySknKd/Olimpo-Avila-Salazar.jpg');"></div>
+  <div class="bg-slide" style="background-image: url('https://mattbuckinghamphotography.com/wp-content/uploads/2017/10/img_6560.jpg');"></div>
+  <div class="bg-slide" style="background-image: url('https://i.ibb.co/Tbh3sK7/Richard-Brunsveld.jpg');"></div>
+  <div class="bg-slide" style="background-image: url('https://i.ibb.co/pwByKPc/1462710-1438528976361244-1879148447-o.jpg');"></div>
+
+  
+  <div class="container position-relative z-index-9">
     <div class="row">
       <div class="contact-holder col-lg-8 offset-lg-2 col-sm-8 offset-sm-2">
         <h1 class="wow fadeInUp" data-wow-duration="1.5s">Contact</h1>
         <form method="POST" action="https://formspree.io/f/xayaqywd" data-toggle="validator">
           <div class="form-container row wow fadeInUp" data-wow-duration="1.5s">
             <div class="form-group col-lg-6">
-              <input class="form-control" type="text" name="username" id="username" placeholder="Name"
-                required>
+              <input class="form-control" type="text" name="username" id="username" placeholder="Name" required>
               <div class="help-block with-errors"></div>
             </div>
             <div class="form-group col-lg-6">
@@ -500,8 +538,7 @@
               <div class="help-block with-errors"></div>
             </div>
             <div class="form-group col-lg-12">
-              <textarea class="form-control" name="message" id="message" rows="12"
-                placeholder="Message"></textarea>
+              <textarea class="form-control" name="message" id="message" rows="12" placeholder="Message"></textarea>
               <div class="help-block with-errors"></div>
             </div>
             <div class="form-group col-lg-12 sub-button">
@@ -511,6 +548,7 @@
         </form>
       </div>
     </div>
+    
     <div class="row">
       <div class="footer col-lg-10 offset-lg-1">
         <hr>
@@ -537,6 +575,19 @@
     </div>
   </div>
 </section>
+
+<script>
+  const contactSlides = document.querySelectorAll("#contact .bg-slide");
+  let k = 0;
+  setInterval(() => {
+    contactSlides[k].classList.remove("active");
+    k = (k + 1) % contactSlides.length;
+    contactSlides[k].classList.add("active");
+  }, 5000); 
+</script>
+
+
+
 
 
 
