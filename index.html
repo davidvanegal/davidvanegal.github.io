@@ -351,7 +351,7 @@
   width: 100%; height: 100%;
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;  
+  background-attachment: fixed;
   opacity: 0;
   transition: opacity 1.5s ease-in-out;
 }
@@ -367,7 +367,46 @@
   position: absolute;
   top: 0; left: 0;
   width: 100%; height: 100%;
-  background: rgba(0,0,0,0.4);  
+  background: rgba(0,0,0,0.4);
+}
+
+ 
+#cta h1 {
+  font-size: clamp(1.8rem, 5vw, 3rem);
+  text-align: center;
+  color: #fff;
+}
+
+#cta .content {
+  font-size: clamp(1rem, 2.5vw, 1.3rem);
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+#cta a {
+  display: inline-block;
+  padding: clamp(0.6rem, 2vw, 1rem) clamp(1rem, 3vw, 2rem);
+  font-size: clamp(1rem, 2.5vw, 1.2rem);
+  background: #ff6600;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+#cta a:hover {
+  background: #e05500;
+}
+
+ 
+@media (max-width: 768px) {
+  #cta .bg-slide {
+    background-attachment: scroll;
+  }
+  #cta .container-fluid {
+    padding: 1rem;
+    text-align: center;
+  }
 }
 </style>
 
@@ -401,7 +440,7 @@
     slides[i].classList.remove("active");
     i = (i + 1) % slides.length;
     slides[i].classList.add("active");
-  }, 5000); 
+  }, 5000);
 </script>
 
 
@@ -495,7 +534,7 @@
   width: 100%; height: 100%;
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;  
+  background-attachment: fixed;
   opacity: 0;
   transition: opacity 1.5s ease-in-out;
 }
@@ -509,7 +548,48 @@
   position: absolute;
   top: 0; left: 0;
   width: 100%; height: 100%;
-  background: rgba(0,0,0,0.4);  
+  background: rgba(0,0,0,0.4);
+}
+
+ 
+.contact-holder h1 {
+  font-size: clamp(1.5rem, 4vw, 2.5rem);
+  text-align: center;
+}
+
+.form-control {
+  font-size: clamp(0.9rem, 2vw, 1.1rem);
+}
+
+.footer-icons i {
+  font-size: clamp(1rem, 2.5vw, 2rem);
+}
+
+.credit {
+  font-size: clamp(0.8rem, 2vw, 1.2rem);
+}
+
+.footer {
+  padding: 1rem;
+}
+
+@media (min-width: 992px) {
+  .footer {
+    padding: 2rem;
+  }
+}
+
+ 
+@media (max-width: 768px) {
+  #contact .bg-slide {
+    background-attachment: scroll;
+  }
+  .form-container {
+    flex-direction: column;
+  }
+  .form-group {
+    width: 100%;
+  }
 }
 </style>
 
@@ -525,7 +605,7 @@
   
   <div class="container position-relative z-index-9">
     <div class="row">
-      <div class="contact-holder col-lg-8 offset-lg-2 col-sm-8 offset-sm-2">
+      <div class="contact-holder col-lg-8 offset-lg-2 col-sm-10 offset-sm-1">
         <h1 class="wow fadeInUp" data-wow-duration="1.5s">Contact</h1>
         <form method="POST" action="https://formspree.io/f/xayaqywd" data-toggle="validator">
           <div class="form-container row wow fadeInUp" data-wow-duration="1.5s">
@@ -550,7 +630,7 @@
     </div>
     
     <div class="row">
-      <div class="footer col-lg-10 offset-lg-1">
+      <div class="footer col-lg-10 offset-lg-1 text-center">
         <hr>
         <ul class="footer-icons list-inline">
           
@@ -583,8 +663,9 @@
     contactSlides[k].classList.remove("active");
     k = (k + 1) % contactSlides.length;
     contactSlides[k].classList.add("active");
-  }, 5000); 
+  }, 5000);
 </script>
+
 
 
 

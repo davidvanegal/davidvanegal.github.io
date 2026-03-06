@@ -376,7 +376,7 @@ Abstract Dung beetles (Scarabaeidae: Scarabaeinae) are a highly diverse and abun
   <div class="bg-slide" style="background-image: url('https://i.ibb.co/pwByKPc/1462710-1438528976361244-1879148447-o.jpg');"></div>
 
   
-  <div class="container position-relative z-index-9 d-flex align-items-center justify-content-center" style="min-height:400px;">
+  <div class="container position-relative z-index-9 d-flex align-items-center justify-content-center" style="min-height:40vh;">
     <div class="footer col-lg-10 offset-lg-1 text-center">
       <hr>
       <ul class="footer-icons list-inline">
@@ -406,7 +406,7 @@ Abstract Dung beetles (Scarabaeidae: Scarabaeinae) are a highly diverse and abun
 #footer {
   position: relative;
   overflow: hidden;
-  min-height: 400px;  
+  min-height: 40vh;  
 }
 
 #footer .bg-slide {
@@ -415,7 +415,7 @@ Abstract Dung beetles (Scarabaeidae: Scarabaeinae) are a highly diverse and abun
   width: 100%; height: 100%;
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;  
+  background-attachment: fixed;
   opacity: 0;
   transition: opacity 1.5s ease-in-out;
 }
@@ -429,7 +429,33 @@ Abstract Dung beetles (Scarabaeidae: Scarabaeinae) are a highly diverse and abun
   position: absolute;
   top: 0; left: 0;
   width: 100%; height: 100%;
-  background: rgba(0,0,0,0.4);  
+  background: rgba(0,0,0,0.4);
+}
+
+ 
+.footer-icons i {
+  font-size: clamp(1rem, 2.5vw, 2rem);
+}
+
+.credit {
+  font-size: clamp(0.8rem, 2vw, 1.2rem);
+}
+
+.footer {
+  padding: 1rem;
+}
+
+@media (min-width: 992px) {
+  .footer {
+    padding: 2rem;
+  }
+}
+
+ 
+@media (max-width: 768px) {
+  #footer .bg-slide {
+    background-attachment: scroll;
+  }
 }
 </style>
 
@@ -440,7 +466,7 @@ Abstract Dung beetles (Scarabaeidae: Scarabaeinae) are a highly diverse and abun
     footerSlides[j].classList.remove("active");
     j = (j + 1) % footerSlides.length;
     footerSlides[j].classList.add("active");
-  }, 5000); 
+  }, 5000);
 </script>
 <!-- JS Plugins -->
 
