@@ -106,6 +106,8 @@
                 
                 <b >RStudio</b>
                 
+                <b >Dung beetles</b>
+                
                 <b >Insects</b>
                 
                 <b >Data science</b>
@@ -335,18 +337,40 @@
 
 
 
-<style></style>
-<section id="cta" class="need-service overlay section-sm wow fadeInUp "  data-wow-duration="1.5s" style="background-image: url('https://i.ibb.co/0tXSBR7/portada.jpg');">
+<style>
+#cta {
+  background-size: cover;
+  background-position: center;
+  transition: background-image 1s ease-in-out;  
+}
+</style>
+
+<section id="cta" class="need-service overlay section-sm wow fadeInUp "  data-wow-duration="1.5s">
   <div class="container position-relative z-index-9">
     <h1>Learn more about the world of R on our page</h1>
     
     
-    
-    <a href="https://rbiologos.github.io" target="_blank">R Biólogos</a>
-    
+      
+        <a href="https://rbiologos.github.io" target="_blank">R Biólogos</a>
+      
     
   </div>
 </section>
+
+<script>
+  const images = ["https://wallpapers.com/images/hd/american-dung-beetle-rainbow-scarab-mhysb80zq75lfkmr.jpg","https://proyectos.humboldt.org.co/escarabajos-revolucion-ganadera/assets/img/escarabajo_estiercol.jpg","https://i.ibb.co/BPGGQsD/DSC00018.jpg"];
+  let i = 0;
+  const cta = document.getElementById("cta");
+  cta.style.backgroundImage = `url('${images[0]}')`;
+
+  setInterval(() => {
+    i = (i + 1) % images.length;
+    cta.style.backgroundImage = `url('${images[i]}')`;
+  }, 5000); 
+</script>
+
+
+
 
 
 
